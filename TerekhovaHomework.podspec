@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TerekhovaHomework"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "OTUS Homework module"
 
   spec.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 "#{spec.version}" }
 
   spec.dependency 'SnapKit'
-  spec.dependency 'OtusHomework', :git => 'https://github.com/NikkoGladkko/OtusHomework.git'
+  spec.dependency 'OtusHomework', :path => 'https://github.com/NikkoGladkko/OtusHomework.git'
   spec.source_files  = "hw_SPM_Cocoapods/**/*.{swift,h,m}"
 
   spec.public_header_files = "hw_SPM_Cocoapods/**/*.{h}"
