@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TerekhovaHomework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "OTUS Homework module"
 
   spec.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => 
-"https://github.com/valentiter/iOS_GPB_hw_SPM_Cocoapods.git", :tag => 
+"https://github.com/valentiter/hw_SPM_Cocoapods.git", :tag => 
 "#{spec.version}" }
 
   spec.dependency 'SnapKit'
