@@ -28,7 +28,7 @@ public class HomeViewCotroller: UIViewController {
     }
 }
 
-extension HomeViewCotroller: HasOtusHomeworkView {
+public extension HomeViewCotroller: HasOtusHomeworkView {
     public var squareView: UIView {
         view
     }
