@@ -8,8 +8,8 @@
 import UIKit
 import SnapKit
 
-class HomeViewCotroller: UIViewController {
-    override func viewDidLoad(){
+public class HomeViewCotroller: UIViewController {
+    public override func viewDidLoad(){
         let label = UILabel()
         label.font = .systemFont(ofSize: 36, weight: .black)
         label.textColor = .black
