@@ -13,6 +13,7 @@
 		29107A892936783300C1766D /* hw_SPM_Cocoapods.h in Headers */ = {isa = PBXBuildFile; fileRef = 29107A7B2936783200C1766D /* hw_SPM_Cocoapods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29107A932936789200C1766D /* HomeViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29107A922936789200C1766D /* HomeViewCotroller.swift */; };
 		29107A96293679F900C1766D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 29107A95293679F900C1766D /* SnapKit */; };
+		29107A9929368D9D00C1766D /* OtusHomework in Frameworks */ = {isa = PBXBuildFile; productRef = 29107A9829368D9D00C1766D /* OtusHomework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29107A96293679F900C1766D /* SnapKit in Frameworks */,
+				29107A9929368D9D00C1766D /* OtusHomework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,7 @@
 			name = hw_SPM_Cocoapods;
 			packageProductDependencies = (
 				29107A95293679F900C1766D /* SnapKit */,
+				29107A9829368D9D00C1766D /* OtusHomework */,
 			);
 			productName = hw_SPM_Cocoapods;
 			productReference = 29107A782936783200C1766D /* hw_SPM_Cocoapods.framework */;
@@ -172,6 +175,7 @@
 			mainGroup = 29107A6E2936783200C1766D;
 			packageReferences = (
 				29107A94293679F900C1766D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				29107A9729368D9D00C1766D /* XCRemoteSwiftPackageReference "OtusHomework" */,
 			);
 			productRefGroup = 29107A792936783200C1766D /* Products */;
 			projectDirPath = "";
@@ -482,6 +486,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		29107A9729368D9D00C1766D /* XCRemoteSwiftPackageReference "OtusHomework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NikkoGladkko/OtusHomework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.11;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -489,6 +501,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 29107A94293679F900C1766D /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		29107A9829368D9D00C1766D /* OtusHomework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29107A9729368D9D00C1766D /* XCRemoteSwiftPackageReference "OtusHomework" */;
+			productName = OtusHomework;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
